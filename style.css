@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+}
+body{    
+
+}
+header{
+    background-color: rgb(6, 54, 6);
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0 1% 0;
+}
+nav{
+    padding: 0 0 1% 0;
+    background-color:  rgb(6, 54, 6);
+
+}
+
+.navbar{
+    overflow: auto;
+        color: white;
+}
+
+
+.navbar a{
+    padding-inline: 2%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar a:hover{
+    background-color: #1a7abeef;
+}
+
+.navbar a.active {
+    text-decoration-line: underline;
+    text-underline-offset:0.31rem;
+}
+main{
+    padding: 0% 2% 2% 2%;
+    max-width: 1400px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1rem;
+    margin-bottom: .2rem;    
+}
+
+img{
+    height: auto;
+    padding: 0.2rem;
+}
+
+
+ul{
+    margin-left: 140px ;
+}
+
+
+#pepperpot{
+    float: left;
+    padding-right: 2rem;
+    }
+#quail{
+    float: left;
+    padding-right: 2rem;
+}
+#henry{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1rem;
+   border: 0px black solid;
+   border-radius: 50%;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
